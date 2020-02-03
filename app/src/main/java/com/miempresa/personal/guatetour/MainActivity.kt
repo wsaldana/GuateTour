@@ -28,8 +28,9 @@ class MainActivity : AppCompatActivity() {
         label = findViewById(R.id.textView2)
         entrada = findViewById(R.id.editText)
 
-        val bundle: Bundle ?=intent.extras
-        val key: String? = bundle?.getString("msm")
+        //val bundle: Bundle ?=intent.extras
+        //val key: String? = bundle?.getString("msm")
+        val key: String? = intent.getStringExtra("msm")
 
         if(key.equals("")){
             Toast.makeText(this, "Sin comentarios...", Toast.LENGTH_SHORT).show()

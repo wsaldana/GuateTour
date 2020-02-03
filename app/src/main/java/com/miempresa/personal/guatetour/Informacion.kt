@@ -52,7 +52,7 @@ class Informacion : AppCompatActivity() {
 
     fun comentar(view: View) {
         val ventana = Intent(this, MainActivity::class.java)
-        ventana.putExtra("msm",entrada.text)
+        ventana.putExtra("msm",entrada.text.toString())
         startActivity(ventana)
     }
 }
