@@ -40,6 +40,7 @@
         android:layout_marginTop="309dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
+        android:onClick="editarNombre"
         app:backgroundTint="#1750BA"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,6 +117,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginBottom="28dp"
         android:text="Tikal"
+        android:onClick="ventanaTikal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -127,6 +129,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="28dp"
         android:text="Antigua"
+        android:onClick="ventanaAntigua"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.494"
@@ -141,6 +144,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="28dp"
         android:text="Xela"
+        android:onClick="ventanaXela"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
